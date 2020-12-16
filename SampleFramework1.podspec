@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.platform     = :ios, "14.0"
   s.ios.deployment_target = '14.0'
 
-  s.source_files = 'SampleFramework1/Classes/**/*'
+ 
   
   # s.resource_bundles = {
   #   'SampleFramework1' => ['SampleFramework1/Assets/*.png']
