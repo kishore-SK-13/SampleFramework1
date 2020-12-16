@@ -253,7 +253,11 @@
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					6E645D4478599F4681CCE56C3EC18F45 = {
+						DevelopmentTeam = G52Z6SJ5JS;
 						LastSwiftMigration = 1230;
+					};
+					91B9AD7F0C720BF649A17E1586328408 = {
+						DevelopmentTeam = G52Z6SJ5JS;
 					};
 				};
 			};
@@ -372,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -389,13 +393,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = G52Z6SJ5JS;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -472,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -489,11 +493,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B150EA04C5C24E9F52A0ADB114043ABF /* SampleFramework1.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G52Z6SJ5JS;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -519,11 +525,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B150EA04C5C24E9F52A0ADB114043ABF /* SampleFramework1.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G52Z6SJ5JS;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -552,13 +560,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = G52Z6SJ5JS;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
