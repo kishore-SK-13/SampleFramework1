@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/kishore-SK-13/SampleFramework1.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.source_files = 'Source/**/*.swift'
-  s.swift_versin = '5.0'
+  s.swift_version = '5.0'
   s.platform = {
       "ios": "12.0"
   }
