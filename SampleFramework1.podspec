@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SampleFramework1'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'SampleFramework1 is a sample pod.'
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,8 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
-  s.platform     = :ios, "9.0"
-  s.ios.deployment_target = '9.0'
+  s.platform     = :ios, "14.0"
+  s.ios.deployment_target = '14.0'
 
   s.source_files = 'SampleFramework1/Classes/**/*'
   
