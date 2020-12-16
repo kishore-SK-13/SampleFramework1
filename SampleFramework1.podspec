@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.platform = {
       "ios": "12.0"
   }
-  s.ios.deployment_target = '12.0'
+  #s.ios.deployment_target = '12.0'
 
   s.source_files = 'SampleFramework1/Classes/**/*'
   
