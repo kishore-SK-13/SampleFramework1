@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SampleFramework1'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SampleFramework1.'
+  s.summary          = 'SampleFramework1 is a sample pod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,8 +27,12 @@ TODO: Add long description of the pod here.
   s.author           = { 'kishore-SK-13' => 'starkishore2@gmail.com' }
   s.source           = { :git => 'https://github.com/kishore-SK-13/SampleFramework1.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_versin = '5.0'
+  s.platform = {
+      "ios": "12.0"
+  }
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'SampleFramework1/Classes/**/*'
   
